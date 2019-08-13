@@ -99,7 +99,7 @@ tls:
 #
 #############################################################################
 csr:
-  cn: admin
+  cn: orderer
   keyrequest:
     algo: ecdsa
     size: 256
@@ -125,30 +125,14 @@ csr:
 #  attributes - List of name/value pairs of attribute for identity
 #############################################################################
 id:
-  name: Admin@ordererorg
-  type: client
-  affiliation: ordererorg
-  maxenrollments: -1
+  name:
+  type:
+  affiliation:
+  maxenrollments: 0
   attributes:
    # - name:
    #   value:
-    - name: hf.Registrar.Roles
-      value: client,orderer,peer,user
-    - name: hf.Registrar.DelegateRoles
-      value: client,orderer,peer,user
-    - name: hf.Registrar.Attributes
-      value: "*"
-    - name: hf.GenCRL
-      value: true
-    - name: hf.Revoker
-      value: true
-    - name: hf.AffiliationMgr
-      value: true
-    - name: hf.IntermediateCA
-      value: true
-    - name: role
-      value: admin
-      ecert: true
+
 #############################################################################
 #  Enrollment section used to enroll an identity with fabric-ca server
 #
