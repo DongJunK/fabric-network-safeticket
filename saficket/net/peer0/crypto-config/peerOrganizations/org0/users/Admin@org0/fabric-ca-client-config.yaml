@@ -125,14 +125,14 @@ csr:
 #  attributes - List of name/value pairs of attribute for identity
 #############################################################################
 id:
-  name:
-  type:
-  affiliation:
-  maxenrollments: 0
+  name: peer0
+  type: peer
+  affiliation: org0
+  maxenrollments: -1
   attributes:
-   # - name:
-   #   value:
-
+    - name: role
+      value: peer
+      ecert: true
 #############################################################################
 #  Enrollment section used to enroll an identity with fabric-ca server
 #
