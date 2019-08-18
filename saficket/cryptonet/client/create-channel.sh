@@ -1,4 +1,4 @@
-FABRIC_PATH=/home/dongjun/p1034_swing/saficket/cryptonet/$HOSTNAME
+FABRIC_PATH=/home/dongjun/p1034_swing/saficket/cryptonet/client
 
 echo $FABRIC_PATH
 
