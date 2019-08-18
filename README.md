@@ -1,4 +1,4 @@
-#Hyperledger Fabric Network 구축
+# Hyperledger Fabric Network 구축
 
 사전작업
 1. 로컬에서 네트워크 구축하기 위해서 virtualBox에 Ubuntu를 설치
@@ -27,7 +27,7 @@ export PATH=$FABRIC_CA_HOME/bin:$PATH
 환경변수 추가
 
 
-##간략한 구축 설명
+## 간략한 구축 설명
 구축하는 과정에서 msp를 생성하는 과정이 있는데 이미 생성되어 있기 때문에
 따로 msp를 생성하는 과정을 하지 않아도 됩니다.
 
@@ -40,7 +40,7 @@ Fabric-ca기반 네트워크는 Fabric-ca server를 구동하여 server에 msp�
 각 노드에 분배하는 방식입니다.
 
 우리 프로젝트에서는 fabric-ca server를 뺄 예정이여서 곧 수정할 것입니다.
-###Cryptogen기반 네트워크
+### Cryptogen기반 네트워크
 cryptonet폴더는 Cryptogen을 기반으로 구축했으며, node는 peer0, peer1, peer2, 
 peer3, orderer, client로 구성되어 있습니다.
 
@@ -55,7 +55,7 @@ sudo ./runOrderer.sh
 
 구축이 완료된다.
 
-###Fabric-ca기반 네트워크
+### Fabric-ca기반 네트워크
 net 폴더는 fabric-ca를 기반으로 구축했으며, node는 peer0, peer1, peer2, 
 peer3, orderer, Fabric-ca로 구성되어 있습니다.
 
