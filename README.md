@@ -6,6 +6,7 @@
 Memory : 2GB 수동 디스크 할당 : 15GB
 3. 각각 vm에 ip 설정
 4. /etc/hosts 등록
+
 peer0 10.0.1.11
 peer1 10.0.1.12
 peer2 10.0.1.21
