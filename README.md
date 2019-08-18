@@ -14,7 +14,8 @@ orderer 10.0.1.31
 client 10.0.1.41
 fabric-ca 10.0.1.100
 
-5. ~/.profile
+5. ~/.profile 환경변수 추가
+
 export GOROOT=/usr/local/go
 export gitlabPATH=$HOME/p1034_swing
 export GOPATH=$gitlabPATH/saficket/
@@ -24,7 +25,6 @@ export PATH=$GOPATH/bin:$GOROOT/bin:$FABRIC_HOME/.build/bin:$PATH
 export FABRIC_CFG_PATH=$GOPATH/cryptonet/$HOSTNAME
 export FABRIC_CA_HOME=$GOPATH/src/github.com/hyperledger/fabric-ca
 export PATH=$FABRIC_CA_HOME/bin:$PATH
-환경변수 추가
 
 
 ## 간략한 구축 설명
