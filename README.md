@@ -1,6 +1,6 @@
 # Hyperledger Fabric Network 구축
 
-사전작업
+## 사전작업
 1. 로컬에서 네트워크 구축하기 위해서 virtualBox에 Ubuntu를 설치
 2. node 개수만큼 vm 생성. (Cryptogen : 7개, fabric-ca : 7개)
 Memory : 2GB 수동 디스크 할당 : 15GB
@@ -39,7 +39,8 @@ peer와 orderer, client에게 분배하는 방식입니다.
 Fabric-ca기반 네트워크는 Fabric-ca server를 구동하여 server에 msp를 요청하여
 각 노드에 분배하는 방식입니다.
 
-우리 프로젝트에서는 fabric-ca server를 뺄 예정이여서 곧 수정할 것입니다.
+Saficket 프로젝트에서는 fabric-ca server를 사용하지 않는 것으로 계획을 변경해서
+곧 수정할 예정입니다.
 ### Cryptogen기반 네트워크
 cryptonet폴더는 Cryptogen을 기반으로 구축했으며, node는 peer0, peer1, peer2, 
 peer3, orderer, client로 구성되어 있습니다.
