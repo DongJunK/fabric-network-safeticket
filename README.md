@@ -1,11 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Hyperledger-Fabric-CA
-Multi Orderer with Kafka, Zookeeper
-=======
-# Hyperledger-Fabric-CA
->>>>>>> 78c108e11f823fcca07b2bca04e579258f11b8c0
-=======
+
 # Hyperledger Fabric Network 구축
 
 ## 사전작업
@@ -71,4 +64,4 @@ peer3, orderer, Fabric-ca로 구성되어 있습니다.
 순서는 Cryptogen기반 네트워크와 동일합니다.
 폴더는 net폴더에서 진행합니다.
 
->>>>>>> fc4fc348523f0e9c36e53c554d124f6f01b7b0f1
+
